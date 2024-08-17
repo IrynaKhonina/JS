@@ -1,0 +1,30 @@
+
+.jacmb__calculator{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 20px;
+    border: 1 solid black;
+    
+}
+
+.jacmb__calculator .operations__block button {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+
+}
+
+.jacmb__calculator .imputs__blok .input__blok  {
+    display: inline-block;
+    padding: 20px;
+
+}
+
+.jacmb__calculator .imputs__blok .input__blok label {
+    display: block;
+    
+
+}
+
