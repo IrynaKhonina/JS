@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Английский Тренажер</title>
+</head>
+<body>
+  <h1>Английский Тренажер</h1>
+  <p>Введите слово на английском языке:</p>
+  <input type="text" id="wordInput">
+  <button onclick="checkWord()">Проверить</button>
+
+  <script>
+    function checkWord() {
+      var userWord = document.getElementById("wordInput").value.toLowerCase();
+      var correctWord = prompt("Введите правильный перевод слова:"); // Заменяйте на нужные слова
+      if (userWord === correctWord) {
+        window.alert("Верно!");
+      } else {
+        window.alert("Неверно. Правильный ответ: " + correctWord);
+      }
+    }
+  </script>
+</body>
+</html>
